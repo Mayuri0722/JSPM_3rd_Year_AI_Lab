@@ -1,0 +1,45 @@
+{
+  "accuracy": 0.9668161434977578,
+  "confusion_matrix": [
+    [
+      966,
+      0
+    ],
+    [
+      37,
+      112
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.963110667996012,
+      "recall": 1.0,
+      "f1-score": 0.9812087353986796,
+      "support": 966.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 0.7516778523489933,
+      "f1-score": 0.8582375478927203,
+      "support": 149.0
+    },
+    "accuracy": 0.9668161434977578,
+    "macro avg": {
+      "precision": 0.981555333998006,
+      "recall": 0.8758389261744967,
+      "f1-score": 0.9197231416456999,
+      "support": 1115.0
+    },
+    "weighted avg": {
+      "precision": 0.9680402737974416,
+      "recall": 0.9668161434977578,
+      "f1-score": 0.964775814377704,
+      "support": 1115.0
+    }
+  },
+  "samples": {
+    "train": 4457,
+    "test": 1115
+  },
+  "model_path": "spam_model.pkl"
+}
